@@ -1,0 +1,62 @@
+   /* resource_board/src/App.css */
+   .app {
+    text-align: center; /* Center text */
+}
+
+.resource-card {
+    border: 1px solid #ccc; /* Card border */
+    padding: 16px; /* Padding inside card */
+    margin: 16px; /* Margin around card */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Fixed width for cards */
+    background-color: #f0f0f0; /* Grey background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    position: relative; /* Positioning for button */
+}
+
+.resource-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: center; /* Center cards horizontally */
+    gap: 16px; /* Add space between cards */
+}
+
+h2 {
+    margin-top: 20px; /* Space above category titles */
+}
+
+.additional-info {
+    margin-top: 10px; /* Space above additional info */
+    background-color: #f9f9f9; /* Light background for additional info */
+    padding: 10px; /* Padding for additional info */
+    border: 1px solid #ddd; /* Border for additional info */
+    border-radius: 5px; /* Rounded corners for additional info */
+}
+
+button {
+    margin-top: 10px; /* Space above button */
+    padding: 8px 12px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.view-button {
+    margin-top: 10px; /* Space above button */
+    padding: 8px 12px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.view-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
